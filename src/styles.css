@@ -1,3 +1,8 @@
+h3 {
+    color: #535758;
+    padding: 5px;
+}
+
 .square {
     background: #fff;
     border: 2px solid #999;
@@ -18,4 +23,12 @@
     content: "";
     display: table;
     padding-left: 10px;
+}
+
+.history-btn {
+    background-color: #7bb6b6;
+    border-color: #fff;
+    border-width: 2px;
+    color: #fff;
+    padding: 5px;
 }

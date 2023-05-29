@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './styles.css'
-import Board from './components/Board'
+import Game from './components/Game'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1>Let's play Tic-Tac-Toe!</h1>
-      <Board />
+      <Game />
     </>
   )
 }
